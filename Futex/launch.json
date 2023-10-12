@@ -1,0 +1,16 @@
+{
+  "name": "Python: Django",
+  "type": "python",
+  "request": "launch",
+  "cwd": "${workspaceFolder}/app",
+  "program": "${workspaceFolder}/app/manage.py",
+  "console": "integratedTerminal",
+  "args": [
+    "runserver",
+    "--noreload",
+    "--nothreading"
+  ],
+  "justMyCode": false,
+  "django": true
+  // "envFile": ""
+}
